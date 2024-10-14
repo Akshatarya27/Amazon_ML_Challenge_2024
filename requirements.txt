@@ -25,5 +25,5 @@ pandas==2.0.3           # Although not directly used, it's mentioned as needed
 # pathlib==1.0.1          # File path handling
 # multiprocessing         # Handle parallel processing
 # functools==3.10.4       # Built-in, but ensure you're using its features
-re==2.2.1               # Regular expressions handling (built-in)
+re               # Regular expressions handling (built-in)
 # urllib3==2.0.4          # URL handling (optional, for urllib)
