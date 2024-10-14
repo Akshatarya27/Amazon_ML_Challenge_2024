@@ -21,9 +21,9 @@ opencv-python-headless==4.7.0.72  # OpenCV for image preprocessing
 requests==2.31.0        # For fetching images from URLs
 numpy==1.26.0           # For numerical operations
 pandas==2.0.3           # Although not directly used, it's mentioned as needed
-tqdm==4.66.5            # Progress bar for loops (if needed)
-pathlib==1.0.1          # File path handling
-multiprocessing         # Handle parallel processing
-functools==3.10.4       # Built-in, but ensure you're using its features
+# tqdm==4.66.5            # Progress bar for loops (if needed)
+# pathlib==1.0.1          # File path handling
+# multiprocessing         # Handle parallel processing
+# functools==3.10.4       # Built-in, but ensure you're using its features
 re==2.2.1               # Regular expressions handling (built-in)
-urllib3==2.0.4          # URL handling (optional, for urllib)
+# urllib3==2.0.4          # URL handling (optional, for urllib)
