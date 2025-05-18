@@ -5,9 +5,11 @@ import os
 from io import BytesIO
 import pytesseract 
 import cv2
+import re
 # from extract_units import process_image, process_image_from_url  # Import functions
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 
 # Preprocessing and OCR configurations
 custom_config = r'--oem 3 --psm 6'

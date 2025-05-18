@@ -16,7 +16,7 @@
 
 streamlit==1.22.0       # Ensure the version supports features you're using
 Pillow==10.0.0          # PIL for image handling
-pytesseract==0.3.10     # Interface for Tesseract
+pytesseract     # Interface for Tesseract
 opencv-python-headless==4.7.0.72  # OpenCV for image preprocessing
 requests==2.31.0        # For fetching images from URLs
 numpy==1.26.0           # For numerical operations
